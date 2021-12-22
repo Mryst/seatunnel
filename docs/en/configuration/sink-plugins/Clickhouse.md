@@ -1,4 +1,4 @@
-# Sink plugin: Doirs
+# Sink plugin: Clickhouse
 
 ### Description:
 Use Spark Batch Engine ETL Data to Clickhouse.
@@ -6,7 +6,7 @@ Use Spark Batch Engine ETL Data to Clickhouse.
 ### Options
 | name         | type   | required | default value | engine |
 | ------------ | ------ | -------- | ------------- | ------ |
-| bulk_size    | number | yes      | 20000         | Spark  |
+| bulk_size    | number | no       | 20000         | Spark  |
 | database     | string | yes      | -             | Spark  |
 | table        | string | yes      | -             | Spark  |
 | username     | string | yes      | -             | Spark  |
